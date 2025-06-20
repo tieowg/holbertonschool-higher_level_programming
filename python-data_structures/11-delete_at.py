@@ -9,5 +9,5 @@ def delete_at(my_list=[], idx=0):
                 continue
             else:
                 newlist.append(my_list[i])
-        my_list = newlist.copu()
+        my_list = newlist.copy()
         return my_list
