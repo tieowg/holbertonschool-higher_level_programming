@@ -3,4 +3,4 @@
 
 def lookup(obj):
     '''salam'''
-    return list
+    return list()
