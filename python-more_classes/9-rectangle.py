@@ -68,5 +68,7 @@ class Rectangle:
         else:
             return rect_2
 
-    def square(cls, size = 0):
-        return Rectangle(size, size)
+    @classmethod
+    def square(cls, size):
+        return cls(size, size)
+
