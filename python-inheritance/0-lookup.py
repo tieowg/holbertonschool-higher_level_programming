@@ -4,3 +4,6 @@
 def lookup(obj):
     '''salam'''
     return list()
+
+if __name__ == "__main__":
+    print(lookup(int))
