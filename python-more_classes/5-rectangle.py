@@ -50,3 +50,4 @@ class Rectangle:
 
     def __del__(self):
         return "Bye rectangle..."
+    del(Rectangle(self.__width, self.__heigth))
