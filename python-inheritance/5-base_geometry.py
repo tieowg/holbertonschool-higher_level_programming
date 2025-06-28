@@ -5,4 +5,4 @@
 class BaseGeometry:
     '''salam'''
 
-    print(dir(BaseGeometry))
+    pass
