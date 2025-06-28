@@ -3,6 +3,8 @@
 
 
 def is_same_class(obj, a_class):
-    if is not instance(obj, int):
+    '''salam'''
+
+    if not isinstance(obj, int):
         return True
     return False
